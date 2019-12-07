@@ -1,1 +1,1 @@
-
+Please download CIFAR-10 Dataset from https://www.cs.toronto.edu/~kriz/cifar.html for python via the link "CIFAR-10 python version" and put the downloaded folder under "Dataset_CIFAR" folder which sould be on the same path with "Codes" folder.
