@@ -31,7 +31,7 @@ for netIndx in range(len(netTypeList)):
     momentum        = 0.9
     weightDecay     = 5e-4
     DataSetFileName = "../Dataset_CIFAR/cifar-10-batches-py/"
-    ResultsDirName  = "Results/"
+    ResultsDirName  = "../Results/"
     TestingEpoch    = 1
     maxEpoch        = 1000
     # Read CIFAR10 dataset train and test data
