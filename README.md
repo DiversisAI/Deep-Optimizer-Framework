@@ -1,11 +1,11 @@
 # Deep-Optimizer-Framework
-Deep Optimizer Framework is a new way of training deep networks that improves inference accuracy on test data developed by DIVERSIS Software (www.diversis.com.tr). This new training approach is applicable to various types of deep neural network architectures. We have tested our proposed Deep Optimizer Framework with six different Deep Neural Network Architectures including Convolutional Neural Networks (CNNs) and Fully Connected Networks (FCNs). The details of network architectures can be seen at https://drive.google.com/open?id=1hED76DQcbEhc31zY9HDvnJsFxHrayOBZ.
+Deep Optimizer Framework developed by DIVERSIS Software (www.diversis.com.tr) is a new way of training deep networks that improves inference accuracy on test data. This new training approach is applicable to various types of deep neural network architectures. We have tested our proposed Deep Optimizer Framework with six different Deep Neural Network Architectures including Convolutional Neural Networks (CNNs) and Fully Connected Networks (FCNs). The details of network architectures can be seen at https://drive.google.com/open?id=1hED76DQcbEhc31zY9HDvnJsFxHrayOBZ.
 
 To use the Deep Optimizer Framework, the users do not need to change anything in their network design. The users design their own network architecture without any structural or optimization limitations. They simply activate the Deep Optimizer Framework to get better test accuracies for their deep learning applications. Any regularizer and any loss function can be used. In fact, Deep Optimizer Framework is invisible to the user, it only changes the training mechanism for better test accuracy. 
 
 For details please wisit www.diversis.com.tr/
 
-For testing the networks please run "EvalNetwork.py" file. The obtained results will be as follows.
+For testing first download CIFAR-10 data set here: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz, then run "EvalNetwork.py" file. Please make sure that relative paths are set correctly. The obtained results will be as follows:
 
 	                    Test Accuracy Results (%)    Difference (%)
              Net Type   Classical	DeepOptimizer
@@ -18,7 +18,7 @@ For testing the networks please run "EvalNetwork.py" file. The obtained results 
    
 The reported accuracy results are the maximum test accuracies obtained after running for 1000 epoch.   
 
-You can use "TrainNetwork.py" for training the networks defined in "NetworkSelector.py" file. You can select which network type will be trained via "netTypeList" variable, whose default value is all network types, namely "netTypeList = [1,2,3,5,6,7]".
+You can use "TrainNetwork.py" for training the networks defined in "NetworkSelector.py" file. You can select which network type will be trained via "netTypeList" variable, whose default value is all network types, namely "netTypeList = [1,2,3,4,5,6]".
    
 The required modules are,
 
